@@ -5,7 +5,7 @@ let express = require('express')
 let router = express.Router()
 
 // Reference the models
-let db = require('../models')
+// let db = require('../models')
 
 // Declare routs
 router.get('/', (req, res) => {
